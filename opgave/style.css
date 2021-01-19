@@ -1,4 +1,39 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 3rem 0;
+    list-style-type: none;
+    border: solid 5px black;
+}
+
+nav a {
+    color: black;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+main p {
+    margin: 2rem 20%;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: blue;
+    padding: 3rem 0;
+    border: solid 5px black;
 }
